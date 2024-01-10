@@ -15,7 +15,7 @@
     <!-- HEADER -->
     <header>
         <div class="container">
-            <img class="logo" src="./img/logo.png" alt="logo">
+            <img class="header__logo" src="./img/logo.png" alt="logo">
             <nav class="header__nav">
                 <ul class="header__nav__list">
                     <li class="header__nav__item"><a href="#">Home</a></li>
@@ -29,31 +29,37 @@
     <!-- MAIN -->
     <main>
         <!-- Hero -->
-        <section>
+        <section class="hero__section">
             <div class="container">
-                <h3>Restaurant app</h3>
-                <h1>Why stay hungry when you can order form Eats </h1>
-                <p>Order in exchange for hunger</p>
-                <button type="button">Delivery</button>
-                <button type="button">Menu</button>
+                <h3 class="hero__subtitle">Restaurant app</h3>
+                <h1 class="hero__title">Why stay hungry when you can order form Eats </h1>
+                <p class="hero__text">Order in exchange for hunger</p>
+                <div class="hero__div">
+                    <button class="hero__button-delivery" type="button">Delivery</button>
+                    <button class="hero__button-menu" type="button">Menu</button>
+                </div>
             </div>
         </section>
         <!-- App -->
         <section>
             <div class="container">
-                <h2>How the app works</h2>
-                <ul>
-                    <li>
-                        <img src="./img/IMG_1.png" alt="">
-                        <h3></h3>
-                        <h2></h2>
-                        <p></p>
+                <h2 class="app__title">How the app works</h2>
+                <ul class="app__list">
+                    <li class="app__item1">
+                        <img class="app__item__img1" src="./img/IMG_1.png" alt="">
+                        <div class="app__div1">
+                            <h3 class="app__item__subtitle1">Create an account</h3>
+                            <h2 class="app__item__title1">Create/login to an existing account to get started</h2>
+                            <p class="app__item__text1">An account is created with your email and a desired password</p>
+                        </div>
                     </li>
-                    <li>
-                        <h3></h3>
-                        <h2></h2>
-                        <p></p>
-                        <img src="./img/IMG_2.png" alt="">
+                    <li class="app__item2">
+                        <div class="app__div2">
+                            <h3 class="app__item__subtitle2">Explore varieties</h3>
+                            <h2 class="app__item__title2">Shop for your favorites meal as e dey hot.</h2>
+                            <p class="app__item__text2">Shop for your favorite meals or drinks and enjoy while doing it.</p>
+                        </div>
+                            <img class="app__item__img2" src="./img/IMG_2.png" alt="">
                     </li>
                 </ul>
             </div>
